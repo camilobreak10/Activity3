@@ -1,0 +1,107 @@
+/* START OF NAVBAR*/
+body {
+	font-size: 16px;
+	color: #fff;
+	font-family: 'Pacifico', cursive;
+}
+#header-nav {
+	background-color: #6E6E6E;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand {
+	padding-top: 50px;
+}
+.navbar-brand h1{
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #FE9A2E;
+	font-size: 1.5em;
+	text-transform: unset;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: -25px;
+	margin-bottom: 20px;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-brand p{
+	color: #FA5858;
+	text-transform: uppercase;
+	font-size: .7em;
+	margin-top: 15px;
+	vertical-align: middle;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #FE9A2E;
+  background-color: #FA5858;
+}
+#nav-list a:hover {
+  background: #6E6E6E;
+}
+#nav-list a span {
+  font-size: 1.4em;
+}
+/*END OF NAVBAR*/
+
+/* START OF TITLE*/
+h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+	color: #FE9A2E;
+	font-size: 2.5em;
+	text-transform: unset;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+}
+/*END OF TITLE*/
+
+/* START OF CONTAINER PARAGRAPH*/
+#Paragraph {
+	height: 1000px;
+	background-color: #6E6E6E;
+	margin-top: 20px;
+}
+#Paragraph-title h3 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #FE9A2E;
+	font-size: 1.5em;
+	text-transform: unset;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+}
+p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #FE9A2E;
+	font-size: .8em;
+	text-transform: unset;
+}
+/*END OF CONTAINER PARAGRAPH*/
+
+/*MEDIUM DEVICES ONLY*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	#Paragraph {
+		margin: 0 auto 30px;
+	}
+}
+/*MEDIUM DEVICES ONLY*/
+
+/*SMALL DEVICES ONLY*/
+@media (min-width: 768px) and (max-width: 991px) {
+	#Paragraph {
+		margin: 0 auto 30px;
+	}
+}
+/*SMALL DEVICES ONLY*/
+
+/*EXTRA SMALL DEVICES ONLY*/
+@media (max-width: 767px) {
+	#Paragraph {
+		margin: 0 auto 15px;
+		width: 400px;
+	}
+}
+/*EXTRA SMALL DEVICES ONLY*/
