@@ -103,5 +103,9 @@ p {
 		margin: 0 auto 15px;
 		width: 400px;
 	}
+	.container > .navbar-header {
+		margin-right: 0;
+		margin-left: 0;
+	}
 }
 /*EXTRA SMALL DEVICES ONLY*/
