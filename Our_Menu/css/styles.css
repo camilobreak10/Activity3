@@ -101,10 +101,10 @@ p {
 @media (max-width: 767px) {
 	#Paragraph {
 		margin: 0 auto 15px;
-		width: 400px;
+		width: 300px;
 	}
 	.container > .navbar-header {
-		margin-right: 0;
+		margin-right: -15px;
 		margin-left: 0;
 	}
 }
